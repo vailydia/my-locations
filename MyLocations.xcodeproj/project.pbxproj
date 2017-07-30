@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		2E0521021EF87AF700CE0EF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521011EF87AF700CE0EF5 /* main.m */; };
 		2E0521051EF87AF700CE0EF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521041EF87AF700CE0EF5 /* AppDelegate.m */; };
-		2E0521081EF87AF700CE0EF5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521071EF87AF700CE0EF5 /* FirstViewController.m */; };
-		2E05210B1EF87AF700CE0EF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05210A1EF87AF700CE0EF5 /* SecondViewController.m */; };
+		2E0521081EF87AF700CE0EF5 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521071EF87AF700CE0EF5 /* CurrentLocationViewController.m */; };
+		2E05210B1EF87AF700CE0EF5 /* TaggedLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05210A1EF87AF700CE0EF5 /* TaggedLocationViewController.m */; };
 		2E05210E1EF87AF700CE0EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E05210C1EF87AF700CE0EF5 /* Main.storyboard */; };
 		2E0521101EF87AF700CE0EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E05210F1EF87AF700CE0EF5 /* Assets.xcassets */; };
 		2E0521131EF87AF700CE0EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0521111EF87AF700CE0EF5 /* LaunchScreen.storyboard */; };
 		2E05211E1EF87AF800CE0EF5 /* MyLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05211D1EF87AF800CE0EF5 /* MyLocationsTests.m */; };
 		2E0521291EF87AF800CE0EF5 /* MyLocationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521281EF87AF800CE0EF5 /* MyLocationsUITests.m */; };
+		2E05217A1EF8869D00CE0EF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0521791EF8869D00CE0EF5 /* CoreLocation.framework */; };
+		2E05217D1EF9C68800CE0EF5 /* LocationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05217C1EF9C68800CE0EF5 /* LocationDetailsViewController.m */; };
+		2E0521801EF9F28500CE0EF5 /* CategoryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05217F1EF9F28500CE0EF5 /* CategoryPickerViewController.m */; };
+		2E0521831EFAE1F100CE0EF5 /* HudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521821EFAE1F100CE0EF5 /* HudView.m */; };
+		2E0521851EFC38EF00CE0EF5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0521841EFC38EF00CE0EF5 /* CoreData.framework */; };
+		2E0521881EFC392700CE0EF5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521861EFC392700CE0EF5 /* Model.xcdatamodeld */; };
+		2E0521921EFC3E0B00CE0EF5 /* Location+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E05218F1EFC3E0B00CE0EF5 /* Location+CoreDataClass.m */; };
+		2E0521931EFC3E0B00CE0EF5 /* Location+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0521911EFC3E0B00CE0EF5 /* Location+CoreDataProperties.m */; };
+		2E08EEAE1F01903A000ADD80 /* LocationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E08EEAD1F01903A000ADD80 /* LocationViewCell.m */; };
+		2E08EEB71F01CDC6000ADD80 /* MyLocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E08EEB61F01CDC6000ADD80 /* MyLocationTableViewController.m */; };
+		2E08EEBA1F02D240000ADD80 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E08EEB91F02D240000ADD80 /* MyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +51,10 @@
 		2E0521011EF87AF700CE0EF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E0521031EF87AF700CE0EF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E0521041EF87AF700CE0EF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E0521061EF87AF700CE0EF5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		2E0521071EF87AF700CE0EF5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		2E0521091EF87AF700CE0EF5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		2E05210A1EF87AF700CE0EF5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2E0521061EF87AF700CE0EF5 /* CurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentLocationViewController.h; sourceTree = "<group>"; };
+		2E0521071EF87AF700CE0EF5 /* CurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationViewController.m; sourceTree = "<group>"; };
+		2E0521091EF87AF700CE0EF5 /* TaggedLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaggedLocationViewController.h; sourceTree = "<group>"; };
+		2E05210A1EF87AF700CE0EF5 /* TaggedLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaggedLocationViewController.m; sourceTree = "<group>"; };
 		2E05210D1EF87AF700CE0EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E05210F1EF87AF700CE0EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0521121EF87AF700CE0EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +65,25 @@
 		2E0521241EF87AF800CE0EF5 /* MyLocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLocationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0521281EF87AF800CE0EF5 /* MyLocationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLocationsUITests.m; sourceTree = "<group>"; };
 		2E05212A1EF87AF800CE0EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0521791EF8869D00CE0EF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2E05217B1EF9C68800CE0EF5 /* LocationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailsViewController.h; sourceTree = "<group>"; };
+		2E05217C1EF9C68800CE0EF5 /* LocationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsViewController.m; sourceTree = "<group>"; };
+		2E05217E1EF9F28500CE0EF5 /* CategoryPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPickerViewController.h; sourceTree = "<group>"; };
+		2E05217F1EF9F28500CE0EF5 /* CategoryPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPickerViewController.m; sourceTree = "<group>"; };
+		2E0521811EFAE1F100CE0EF5 /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
+		2E0521821EFAE1F100CE0EF5 /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
+		2E0521841EFC38EF00CE0EF5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E0521871EFC392700CE0EF5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2E05218E1EFC3E0B00CE0EF5 /* Location+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataClass.h"; sourceTree = "<group>"; };
+		2E05218F1EFC3E0B00CE0EF5 /* Location+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataClass.m"; sourceTree = "<group>"; };
+		2E0521901EFC3E0B00CE0EF5 /* Location+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2E0521911EFC3E0B00CE0EF5 /* Location+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2E08EEAC1F01903A000ADD80 /* LocationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewCell.h; sourceTree = "<group>"; };
+		2E08EEAD1F01903A000ADD80 /* LocationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewCell.m; sourceTree = "<group>"; };
+		2E08EEB51F01CDC6000ADD80 /* MyLocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationTableViewController.h; sourceTree = "<group>"; };
+		2E08EEB61F01CDC6000ADD80 /* MyLocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationTableViewController.m; sourceTree = "<group>"; };
+		2E08EEB81F02D240000ADD80 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		2E08EEB91F02D240000ADD80 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0521851EFC38EF00CE0EF5 /* CoreData.framework in Frameworks */,
+				2E05217A1EF8869D00CE0EF5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +116,16 @@
 		2E0520F41EF87AF700CE0EF5 = {
 			isa = PBXGroup;
 			children = (
+				2E05218E1EFC3E0B00CE0EF5 /* Location+CoreDataClass.h */,
+				2E05218F1EFC3E0B00CE0EF5 /* Location+CoreDataClass.m */,
+				2E0521901EFC3E0B00CE0EF5 /* Location+CoreDataProperties.h */,
+				2E0521911EFC3E0B00CE0EF5 /* Location+CoreDataProperties.m */,
+				2E0521861EFC392700CE0EF5 /* Model.xcdatamodeld */,
 				2E0520FF1EF87AF700CE0EF5 /* MyLocations */,
 				2E05211C1EF87AF800CE0EF5 /* MyLocationsTests */,
 				2E0521271EF87AF800CE0EF5 /* MyLocationsUITests */,
 				2E0520FE1EF87AF700CE0EF5 /* Products */,
+				2E0521781EF8869C00CE0EF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +142,25 @@
 		2E0520FF1EF87AF700CE0EF5 /* MyLocations */ = {
 			isa = PBXGroup;
 			children = (
+				2E05210C1EF87AF700CE0EF5 /* Main.storyboard */,
+				2E08EEB81F02D240000ADD80 /* MyCollectionViewCell.h */,
+				2E08EEB91F02D240000ADD80 /* MyCollectionViewCell.m */,
 				2E0521031EF87AF700CE0EF5 /* AppDelegate.h */,
 				2E0521041EF87AF700CE0EF5 /* AppDelegate.m */,
-				2E0521061EF87AF700CE0EF5 /* FirstViewController.h */,
-				2E0521071EF87AF700CE0EF5 /* FirstViewController.m */,
-				2E0521091EF87AF700CE0EF5 /* SecondViewController.h */,
-				2E05210A1EF87AF700CE0EF5 /* SecondViewController.m */,
-				2E05210C1EF87AF700CE0EF5 /* Main.storyboard */,
+				2E0521811EFAE1F100CE0EF5 /* HudView.h */,
+				2E0521821EFAE1F100CE0EF5 /* HudView.m */,
+				2E0521061EF87AF700CE0EF5 /* CurrentLocationViewController.h */,
+				2E0521071EF87AF700CE0EF5 /* CurrentLocationViewController.m */,
+				2E05217B1EF9C68800CE0EF5 /* LocationDetailsViewController.h */,
+				2E05217C1EF9C68800CE0EF5 /* LocationDetailsViewController.m */,
+				2E05217E1EF9F28500CE0EF5 /* CategoryPickerViewController.h */,
+				2E05217F1EF9F28500CE0EF5 /* CategoryPickerViewController.m */,
+				2E08EEAC1F01903A000ADD80 /* LocationViewCell.h */,
+				2E08EEAD1F01903A000ADD80 /* LocationViewCell.m */,
+				2E0521091EF87AF700CE0EF5 /* TaggedLocationViewController.h */,
+				2E05210A1EF87AF700CE0EF5 /* TaggedLocationViewController.m */,
+				2E08EEB51F01CDC6000ADD80 /* MyLocationTableViewController.h */,
+				2E08EEB61F01CDC6000ADD80 /* MyLocationTableViewController.m */,
 				2E05210F1EF87AF700CE0EF5 /* Assets.xcassets */,
 				2E0521111EF87AF700CE0EF5 /* LaunchScreen.storyboard */,
 				2E0521141EF87AF800CE0EF5 /* Info.plist */,
@@ -143,6 +193,15 @@
 				2E05212A1EF87AF800CE0EF5 /* Info.plist */,
 			);
 			path = MyLocationsUITests;
+			sourceTree = "<group>";
+		};
+		2E0521781EF8869C00CE0EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0521841EFC38EF00CE0EF5 /* CoreData.framework */,
+				2E0521791EF8869D00CE0EF5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +271,8 @@
 				TargetAttributes = {
 					2E0520FC1EF87AF700CE0EF5 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4V4PCK8KNJ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					2E0521181EF87AF800CE0EF5 = {
@@ -278,10 +339,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E05210B1EF87AF700CE0EF5 /* SecondViewController.m in Sources */,
+				2E0521931EFC3E0B00CE0EF5 /* Location+CoreDataProperties.m in Sources */,
+				2E05210B1EF87AF700CE0EF5 /* TaggedLocationViewController.m in Sources */,
 				2E0521051EF87AF700CE0EF5 /* AppDelegate.m in Sources */,
-				2E0521081EF87AF700CE0EF5 /* FirstViewController.m in Sources */,
+				2E0521081EF87AF700CE0EF5 /* CurrentLocationViewController.m in Sources */,
+				2E08EEAE1F01903A000ADD80 /* LocationViewCell.m in Sources */,
+				2E0521881EFC392700CE0EF5 /* Model.xcdatamodeld in Sources */,
+				2E08EEBA1F02D240000ADD80 /* MyCollectionViewCell.m in Sources */,
+				2E0521921EFC3E0B00CE0EF5 /* Location+CoreDataClass.m in Sources */,
 				2E0521021EF87AF700CE0EF5 /* main.m in Sources */,
+				2E08EEB71F01CDC6000ADD80 /* MyLocationTableViewController.m in Sources */,
+				2E0521831EFAE1F100CE0EF5 /* HudView.m in Sources */,
+				2E0521801EF9F28500CE0EF5 /* CategoryPickerViewController.m in Sources */,
+				2E05217D1EF9C68800CE0EF5 /* LocationDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +500,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4V4PCK8KNJ;
 				INFOPLIST_FILE = MyLocations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooursera.MyLocations.MyLocations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyLocations-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -441,10 +516,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4V4PCK8KNJ;
 				INFOPLIST_FILE = MyLocations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cooursera.MyLocations.MyLocations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyLocations-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -513,6 +592,7 @@
 				2E05212F1EF87AF800CE0EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E0521301EF87AF800CE0EF5 /* Build configuration list for PBXNativeTarget "MyLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +601,7 @@
 				2E0521321EF87AF800CE0EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E0521331EF87AF800CE0EF5 /* Build configuration list for PBXNativeTarget "MyLocationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,8 +610,22 @@
 				2E0521351EF87AF800CE0EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E0521861EFC392700CE0EF5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E0521871EFC392700CE0EF5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 2E0521871EFC392700CE0EF5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2E0520F51EF87AF700CE0EF5 /* Project object */;
 }

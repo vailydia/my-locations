@@ -26,6 +26,7 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
+		<string>camera-flash</string>
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarTintParameters</key>
@@ -38,11 +39,13 @@
 			<false/>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>MyLocation wants to use your location to display where you are.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MyLocation wants to access your album to choose a photo.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>
